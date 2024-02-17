@@ -25,4 +25,3 @@ def two(n):
         return two(n/2)
     else:
         return True
-
