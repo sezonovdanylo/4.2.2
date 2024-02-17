@@ -9,3 +9,11 @@ def pure(n):
         if n%i==0:
             return False
     return True
+
+def five(n):
+    if n!=5:
+        if n<5:
+            return False
+        return five(n/5)
+    else:
+        return True

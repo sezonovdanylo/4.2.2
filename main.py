@@ -1,2 +1,3 @@
 from utils import fact
-print(fact(5))
+from utils import five
+print(fact(5), five(125))
